@@ -46,7 +46,7 @@ You can also create topics other than `events` by changing the topic name in the
 
 To subscribe to the topic we have just created, run:
 
-'bash runscript.sh  sub events'
+`bash runscript.sh  sub events`
 
 You can also subscribe to another topic.
 
@@ -68,8 +68,7 @@ Similarly, you can run multiple publishers publishing to the same or different t
 
 To view information related to the topic, open another terminal window and type:
 
-'bash runscript.sh  describe events'
-
+`bash runscript.sh  describe events`
 
 Among other things, the returned information includes the leader broker of the topic (which should be a number from 1 to 3)
 
@@ -103,6 +102,5 @@ A possible output is:
 you may still publish to the topic. The subscribers should still be able to receive the messages.
 
 ### Stop and remove the containers
-
 
 `bash runscript.sh down`
