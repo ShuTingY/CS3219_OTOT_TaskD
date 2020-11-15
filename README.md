@@ -1,4 +1,4 @@
-This repo is for CS3219 OTOT task D
+This repo is for my AY2020/21 S1 CS3219 OTOT task D
 
 # Kafka Cluster Failover Demo
 
